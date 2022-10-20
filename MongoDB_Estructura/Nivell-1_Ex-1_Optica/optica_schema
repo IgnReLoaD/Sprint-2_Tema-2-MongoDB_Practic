@@ -1,0 +1,416 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 3,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 3,
+          "values": [
+            "6351d3f79797c71cca757810",
+            "6351d5369797c71cca757811",
+            "635158682dc394391549aaf7"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "brand",
+      "path": "brand",
+      "count": 3,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "brand",
+          "count": 3,
+          "fields": [
+            {
+              "name": "brand_logo",
+              "path": "brand.brand_logo",
+              "count": 3,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "brand.brand_logo",
+                  "count": 3,
+                  "values": [
+                    "www.arnette.com",
+                    "www.oakley.com",
+                    "www.arnette.com"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 2,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 3,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "brand_name",
+              "path": "brand.brand_name",
+              "count": 3,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "brand.brand_name",
+                  "count": 3,
+                  "values": [
+                    "Arnette",
+                    "Oakley",
+                    "Arnette"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 2,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 3,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "id_brand",
+              "path": "brand.id_brand",
+              "count": 3,
+              "types": [
+                {
+                  "name": "Int32",
+                  "bsonType": "Int32",
+                  "path": "brand.id_brand",
+                  "count": 3,
+                  "values": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 1,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 3,
+              "type": "Int32",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "location",
+              "path": "brand.location",
+              "count": 3,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "brand.location",
+                  "count": 3,
+                  "values": [
+                    "California",
+                    "Madrid",
+                    "California"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 2,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 3,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            },
+            {
+              "name": "social_name",
+              "path": "brand.social_name",
+              "count": 3,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "brand.social_name",
+                  "count": 3,
+                  "values": [
+                    "Luxottica Italiana SRL",
+                    "Oakley Ibérica SA",
+                    "Luxottica Italiana SRL"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 2,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 3,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 3,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "color",
+      "path": "color",
+      "count": 3,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "color",
+          "count": 3,
+          "values": [
+            "blue",
+            "black",
+            "brown"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "desc",
+      "path": "desc",
+      "count": 3,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "desc",
+          "count": 3,
+          "values": [
+            "primer modelo del 1994",
+            "modelo unises estilizado fino",
+            "gafas de deporte de montaña marrones"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "id_product",
+      "path": "id_product",
+      "count": 3,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "id_product",
+          "count": 3,
+          "values": [
+            2,
+            3,
+            1
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "Int32",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "left_color",
+      "path": "left_color",
+      "count": 3,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "left_color",
+          "count": 3,
+          "values": [
+            "light",
+            "light",
+            "dark"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 3,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "left_grad",
+      "path": "left_grad",
+      "count": 3,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "left_grad",
+          "count": 3,
+          "values": [
+            4,
+            4,
+            4
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 3,
+      "type": "Int32",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "price",
+      "path": "price",
+      "count": 3,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "price",
+          "count": 3,
+          "values": [
+            160,
+            160,
+            180
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 3,
+      "type": "Int32",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "ref",
+      "path": "ref",
+      "count": 3,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "ref",
+          "count": 3,
+          "values": [
+            "Arnette Raven",
+            "Oakley Turbine",
+            "Arnette Black Dog"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 3,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "right_color",
+      "path": "right_color",
+      "count": 3,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "right_color",
+          "count": 3,
+          "values": [
+            "light",
+            "light",
+            "dark"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 3,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "right_grad",
+      "path": "right_grad",
+      "count": 3,
+      "types": [
+        {
+          "name": "Double",
+          "bsonType": "Double",
+          "path": "right_grad",
+          "count": 3,
+          "values": [
+            4.2,
+            4.2,
+            4.2
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 3,
+      "type": "Double",
+      "has_duplicates": true,
+      "probability": 1
+    }
+  ],
+  "count": 3
+}

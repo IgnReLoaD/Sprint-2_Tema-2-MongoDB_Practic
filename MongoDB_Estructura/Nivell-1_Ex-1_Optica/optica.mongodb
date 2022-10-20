@@ -1,0 +1,15 @@
+
+// A.- Select the DATABASE to use:
+use('optica');
+
+// B.- Create Collection PRODUCTS (table) with Documents (registers) inside:
+db.products.insertMany([{
+    "id_product": 1,
+    "referencia": ""
+    "brand_id": {
+    }
+},
+{
+
+
+}
