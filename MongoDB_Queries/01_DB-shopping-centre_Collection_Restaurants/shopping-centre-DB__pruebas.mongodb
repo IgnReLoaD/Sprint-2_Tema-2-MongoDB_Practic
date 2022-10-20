@@ -1,0 +1,84 @@
+
+
+// Select the database to use.
+use('shoppingCentreDB');
+// mongoimport --db shoppingCentreDB --collection restaurants --type json --file restaurants.json --jsonArray;
+// mongoimport -d shoppingCentreDB -c restaurants --type json --file restaurants.json
+
+var file = cat('./restaurants.json');  // read the file
+console.log(file);
+
+var arrLines = file.split('\n'); // create an array of words
+for (var i = 0, len = arrLines.length; i < len; i++){     // for every word insert it in the collection
+    db.shoppingCentreDB.insert(arrLines[i]); 
+}
+
+// fetch('restaurants.json')
+//   .then(res => res.text())
+//   .then(content => {
+//     let lines = content.split(/\n/);
+//     lines.forEach(line => console.log(line));
+//   });
+
+// arrRESTAURANTS = './restaurants.json';
+// arrRESTAURANTS_ARRAY_DE_OBJETOS = JSON.parse('./restaurants.json');
+// console.log(arrRESTAURANTS_ARRAY_DE_OBJETOS);
+
+// alert('pausa');
+
+// MongoDB RESTAURANTS
+
+// arrRESTAURANTS = '[' + JSON.parse('restaurants.json') + ']';
+// const arrRESTAURANTS_ARRAY_DE_OBJETOS = (JSON.parse('./restaurants.json'));
+// console.log(arrRESTAURANTS_ARRAY_DE_OBJETOS);
+// const jsonRESTAURANTS = JSON.stringify(arrRESTAURANTS_ARRAY_DE_OBJETOS);
+// console.log(jsonRESTAURANTS);
+
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+// db.restaurants.drop();
+
+// import from JSON file
+// mongoimport --db shoppingCentreDB --collection restaurants --type json --file restaurants.json --jsonArray;
+// mongoimport(restaurants.json -d shoppingCentreDB -c restaurants --drop);
+
+// Insert a few documents into the sales collection.
+// db.restaurants.insertMany([  
+//   { '_id': 1, 'item': 'abc', 'price': 10, 'quantity': 2, 'date': new Date('2014-03-01T08:00:00Z') },
+//   { '_id': 2, 'item': 'jkl', 'price': 20, 'quantity': 1, 'date': new Date('2014-03-01T09:00:00Z') },
+//   { '_id': 3, 'item': 'xyz', 'price': 5, 'quantity': 10, 'date': new Date('2014-03-15T09:00:00Z') },
+//   { '_id': 4, 'item': 'xyz', 'price': 5, 'quantity':  20, 'date': new Date('2014-04-04T11:21:39.736Z') },
+//   { '_id': 5, 'item': 'abc', 'price': 10, 'quantity': 10, 'date': new Date('2014-04-04T21:23:13.331Z') },
+//   { '_id': 6, 'item': 'def', 'price': 7.5, 'quantity': 5, 'date': new Date('2015-06-04T05:08:13Z') },
+//   { '_id': 7, 'item': 'def', 'price': 7.5, 'quantity': 10, 'date': new Date('2015-09-10T08:43:00Z') },
+//   { '_id': 8, 'item': 'abc', 'price': 10, 'quantity': 5, 'date': new Date('2016-02-06T20:20:13Z') },
+// ]);
+
+// db.restaurants.insertMany([jsonRESTAURANTS]);
+
+
+// Run a find command to view ALL items inserted
+// db.restaurants.find({ date: { $gte: new Date('2014-04-04'), $lt: new Date('2014-04-05') } });
+
+// db.restaurants.find().pretty();
+
+
+// Run the aggregation and open a cursor to the results.
+// Use toArray() to exhaust the cursor to return the whole result set.
+// You can use hasNext()/next() to iterate through the cursor page by page.
+
+// db.sales.aggregate(aggregation);
+
+
+// var file = cat('./restaurants.json');     # file name
+// use shoppingCentreDB;                        # db name
+// var o = JSON.parse(file);         # convert string to JSON
+// db.restaurants.insert(o);                # collection name
+
+// var file = cat('I:/data/db/card_type_authorization.json'); 
+// var o = JSON.parse(file); 
+// db.CARD_TYPE_AUTHORIZATION.insert(o);
+
+// x = tostring('./restaurants.json');
+// console.log(x);
